@@ -1,19 +1,19 @@
-$primary-color: #36cd75;
-$primary-color-hover: #72cd9f; 
+$primary-color: papayawhip;
+$primary-color-hover: #72cd9f;
 $second-color: #34495e;
 $second-color-alpha: rgba(52,73,94,0.95);
 $second-color-alpha-60: rgba(52,73,94,0.6);
-$second-color-alpha-30: rgba(52,73,94,0.3); 
+$second-color-alpha-30: rgba(52,73,94,0.3);
 $white: #fff;
 $red: #cd173E;
 
-// MIXINS 
+// MIXINS
 // @include func($param);
-@mixin rounded($radius) {	
+@mixin rounded($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
-  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
 @mixin transition($sec) {
@@ -23,7 +23,7 @@ $red: #cd173E;
   transition: all $sec ease-in-out 0s;
 }
 
-@mixin translateX($trX) { 
+@mixin translateX($trX) {
   -webkit-transform: translateX($trX);
   -moz-transform: translateX($trX);
   -ms-transform: translateX($trX);
@@ -31,7 +31,7 @@ $red: #cd173E;
   transform: translateX($trX);
 }
 
-@mixin translateY($trY) { 
+@mixin translateY($trY) {
   -webkit-transform: translateY($trY);
   -moz-transform: translateY($trY);
   -ms-transform: translateY($trY);
@@ -39,7 +39,7 @@ $red: #cd173E;
   transform: translateY($trY);
 }
 
-@mixin transform($param) { 
+@mixin transform($param) {
   -webkit-transform: $param;
   -moz-transform: $param;
   -ms-transform: $param;
@@ -54,7 +54,7 @@ $red: #cd173E;
   transition-duration: $param;
 }
 
-@mixin rotate($deg) { 
+@mixin rotate($deg) {
   -webkit-transform: rotate($deg);
   -moz-transform: rotate($deg);
   -ms-transform: rotate($deg);
@@ -62,7 +62,7 @@ $red: #cd173E;
   transform: rotate($deg);
 }
 
-@mixin scale($param) { 
+@mixin scale($param) {
   -webkit-transform: scale($param);
   -moz-transform: scale($param);
   -ms-transform: scale($param);
@@ -74,14 +74,14 @@ $red: #cd173E;
   -webkit-animation-name: ($name);
   -moz-animation-name: ($name);
   -o-animation-name: ($name);
-  animation-name: ($name); 
+  animation-name: ($name);
 }
 
 @mixin animation-duration($param) {
   -webkit-animation-duration: ($param);
   -moz-animation-duration: ($param);
   -o-animation-duration: ($param);
-  animation-duration: ($param); 
+  animation-duration: ($param);
 }
 
 @mixin animation-delay($param) {

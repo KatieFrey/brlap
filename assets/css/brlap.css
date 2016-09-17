@@ -1,0 +1,155 @@
+/*---------------------------------------------
+[Table of contents]
+
+1. Overwriting style.css
+2. Typed,js css
+3. Special css
+
+---------------------------------------------*/
+
+/*
+* 1. Overwriting style.css
+*/
+
+h1 {
+  margin: 0 0 10px 0;
+}
+
+.button:hover {
+  color: peru;
+}
+
+.button:active {
+  color: peru;
+}
+
+.mfp-close-btn-in .mfp-close {
+  color: papayawhip;
+  background: peru;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mfp-close-btn-in .mfp-close:active {
+  top: 0;
+}
+
+.mfp-close:hover, .mfp-close:focus {
+  background: papayawhip;
+  color: peru;
+}
+
+
+.feedback input {
+  border: 3px solid peru;
+}
+
+.feedback input:focus, .feedback input:active {
+  border: 3px solid saddlebrown;
+}
+
+.button-submit {
+  position: relative;
+  display: block;
+  padding: 10px 60px;
+  margin: 0 auto;
+  border: 3px solid peru;
+  color: papayawhip;
+  background: peru;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.button-submit:hover {
+  background: saddlebrown;
+  border: 3px solid saddlebrown;
+}
+
+.button-submit:focus,
+.button-submit:active:focus {
+  color: papayawhip;
+  outline: 0;
+}
+
+
+
+/*
+* 2. Typed.Js default CSS
+*/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+/*
+* 3. Burlap Custom Css
+*/
+
+.type-it{
+  font-size: 24px;
+  line-height: 64px;
+}
+
+.typed-cursor{
+  font-size: 24px;
+  color: papayawhip;
+}
+
+.brlap-button{
+  position: relative;
+  display: block;
+  float: left;
+  padding: 13px 30px;
+  border: none;
+  color: saddlebrown;
+  line-height: 25px;
+  text-align: center;
+  background-color: papayawhip;
+  overflow: hidden;
+}
+
+.brlap-button:hover {
+  color: peru;
+}
+
+.brlap-button:active {
+  color: peru;
+}
+
+.brlap-button:focus,
+.brlap-button:active:focus {
+  color: peru;
+  outline: 0;
+}
+
+#call-to-action{
+  -webkit-animation-iteration-count: 2;
+  -moz-animation-iteration-count: 2;
+  animation-iteration-count: 2;
+}
