@@ -153,3 +153,7 @@ h1 {
   -moz-animation-iteration-count: 2;
   animation-iteration-count: 2;
 }
+
+.region-info{
+  padding-bottom: 20px;
+}
